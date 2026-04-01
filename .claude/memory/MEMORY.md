@@ -1,3 +1,5 @@
 - [AI Prompts Menu Project](project_ai_prompts_menu.md) — Wayland popup menu for inserting AI prompts at cursor, partially complete
 - [User Phil](user_phil.md) — Ubuntu/GNOME/Wayland user, wants reliable keyboard-driven productivity tools
 - [Verify Before Suggesting](feedback_verify_before_trying.md) — Always probe system state before proposing solutions
+- [Auto-Commit Standing Order](feedback_auto_commit.md) — Commit, push, and save memory after each new feature autonomously
+- [GitHub Repo & Deploy Key](reference_github_repo.md) — philkoh/ClaudeAddMenu, deploy key needs IdentitiesOnly=yes
