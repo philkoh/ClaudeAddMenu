@@ -1,0 +1,3 @@
+- [AI Prompts Menu Project](project_ai_prompts_menu.md) — Wayland popup menu for inserting AI prompts at cursor, partially complete
+- [User Phil](user_phil.md) — Ubuntu/GNOME/Wayland user, wants reliable keyboard-driven productivity tools
+- [Verify Before Suggesting](feedback_verify_before_trying.md) — Always probe system state before proposing solutions
