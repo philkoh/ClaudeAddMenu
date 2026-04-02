@@ -1,0 +1,5 @@
+- [AI Prompts Menu Project](project_ai_prompts_menu.md) — Cross-platform prompt menu (Linux/tmux/Windows), Linux tested and working
+- [User Phil](user_phil.md) — Multi-platform dev: Ubuntu/Wayland desktop, SSH+tmux VMs, Windows PCs
+- [Verify Before Suggesting](feedback_verify_before_trying.md) — Always probe system state before proposing solutions
+- [Auto-Commit Standing Order](feedback_auto_commit.md) — Commit, push, and save memory after each new feature autonomously
+- [GitHub Repo & Deploy Key](reference_github_repo.md) — philkoh/ClaudeAddMenu, deploy key needs IdentitiesOnly=yes
