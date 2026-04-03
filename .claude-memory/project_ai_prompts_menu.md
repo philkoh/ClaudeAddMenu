@@ -4,7 +4,7 @@ description: Ctrl+Shift+M popup menu to insert AI prompt text at cursor - works 
 type: project
 ---
 
-## Status: WORKING on all platforms (Linux desktop, SSH+tmux, Windows)
+## Status: WORKING (Linux desktop), UNTESTED (tmux, Windows)
 
 ## What It Does
 Press **Ctrl+Shift+M** (or tmux prefix+m) → popup menu appears → select a prompt → text is inserted at cursor.

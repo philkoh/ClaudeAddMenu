@@ -1,13 +1,12 @@
 ---
-name: GitHub repo and authentication
-description: ClaudeAddMenu repo at philkoh/ClaudeAddMenu, uses GITHUB_TOKEN on Windows, deploy key on Linux
+name: GitHub repo and deploy key
+description: ClaudeAddMenu repo at philkoh/ClaudeAddMenu, deploy key in project dir, push requires IdentitiesOnly=yes
 type: reference
 ---
 
 - Repo: `philkoh/ClaudeAddMenu` (public)
-- Windows remote: `https://x-access-token:${GITHUB_TOKEN}@github.com/philkoh/ClaudeAddMenu.git` (HTTPS with token)
-- Linux remote: `git@github.com:philkoh/ClaudeAddMenu.git` (SSH with deploy key)
-- Deploy key (Linux): `/home/phil/ClaudeAddMenu/deploy_key` (private, gitignored), `deploy_key.pub` (tracked)
-- Linux push: `GIT_SSH_COMMAND="ssh -i /home/phil/ClaudeAddMenu/deploy_key -o IdentitiesOnly=yes" git push`
-- Windows push: `git push` (GITHUB_TOKEN embedded in remote URL)
+- Remote: `git@github.com:philkoh/ClaudeAddMenu.git` (SSH)
+- Deploy key: `/home/phil/ClaudeAddMenu/deploy_key` (private, gitignored), `deploy_key.pub` (tracked)
+- Push: `git push` (core.sshCommand configured in repo's git config to use deploy key with IdentitiesOnly=yes)
+- The `IdentitiesOnly=yes` flag is required because the SSH agent has other keys that would otherwise match first.
 - Git identity: Phil Koh <pk14225@gmail.com> (configured per-repo, not global)

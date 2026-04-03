@@ -1,27 +1,6 @@
-# ClaudeAddMenu Memory
-
-## Project Overview
-Cross-platform AI prompts popup menu. Ctrl+Shift+M opens a menu, select a prompt to type it at cursor.
-
-## Platforms Configured
-- **Linux Desktop (Wayland/GNOME)** — rofi + ydotool, configured on Phil's Ubuntu
-- **SSH + tmux** — fzf + tmux paste-buffer, prefix+m
-- **Windows PCs** — AutoHotkey v2, Ctrl+Shift+M
-  - Auth via GITHUB_TOKEN env var (HTTPS remote URL)
-  - AHK startup shortcut in shell:startup folder
-
-## Key Architecture
-- `prompts.json` is the single source of truth for all platforms
-- Each platform has its own launcher script reading from prompts.json
-
-## Authentication
-- **Windows:** GITHUB_TOKEN env var embedded in HTTPS remote URL
-- **Linux:** SSH deploy key at `deploy_key` (gitignored), `deploy_key.pub` tracked
-
-## User
-- Phil Koh, pk14225@gmail.com
-- Prefers keyboard-driven tools
-- Standing order: always commit, push, and save to memory on successful new features
-
-## See Also
-- [CLAUDE.md](../../CLAUDE.md) for full project docs
+- [AI Prompts Menu Project](project_ai_prompts_menu.md) — Cross-platform prompt menu (Linux/tmux/Windows), Linux tested and working
+- [User Phil](user_phil.md) — Multi-platform dev: Ubuntu/Wayland desktop, SSH+tmux VMs, Windows PCs
+- [Verify Before Suggesting](feedback_verify_before_trying.md) — Always probe system state before proposing solutions
+- [Auto-Commit Standing Order](feedback_auto_commit.md) — Commit, push, and save memory after each new feature autonomously
+- [GitHub Repo & Deploy Key](reference_github_repo.md) — philkoh/ClaudeAddMenu, SSH with core.sshCommand configured
+- [Deploy Key Fix Resolved](project_deploy_key_fix.md) — Key mismatch fixed 2026-04-03, core.sshCommand configured
