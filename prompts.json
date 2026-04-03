@@ -28,6 +28,10 @@
     "text": "Create a new repo on GitHub using the GITHUB_TOKEN env var.  Then, create a deploy key that accesses only this repository, and save it within this directory.  Commit all appropriate files from this directory to the new repo.  As a standing order, always commit and push and save to memory whenever a new feature is successfully added; in the future, do this autonomously without being asked. Try to commit after successful tests, try to avoid commiting when in a broken state. I may likely delete the contents of this directory at some point, then, when I want to continue work, I will clone from GitHub, so please make sure enough files are tracked to allow continuing right from where I left off (including memories). The default user is Phil Koh pk14225@gmail.com. The name of the new repo is: "
   },
   {
+    "label": "Use Web Search",
+    "text": " Please use extensive web search to improve your answer and bring it fully up-to-date."
+  },
+  {
     "label": "Edit This Menu",
     "text": "Please edit the prompts.json file in this project to add, remove, or modify menu items. The file is a JSON array where each entry has a \"label\" (displayed in the menu) and \"text\" (the prompt inserted when selected). Items appear in the menu in array order. To add an item, add a new object. To remove one, delete it. To reorder, move the object. Here is what I would like you to change:"
   }
