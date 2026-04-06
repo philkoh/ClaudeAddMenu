@@ -2,5 +2,5 @@
 - [User Phil](user_phil.md) — Multi-platform dev: Ubuntu/Wayland desktop, SSH+tmux VMs, Windows PCs
 - [Verify Before Suggesting](feedback_verify_before_trying.md) — Always probe system state before proposing solutions
 - [Auto-Commit Standing Order](feedback_auto_commit.md) — Commit, push, and save memory after each new feature autonomously
-- [GitHub Repo & Deploy Key](reference_github_repo.md) — philkoh/ClaudeAddMenu, SSH with core.sshCommand configured
-- [Deploy Key Fix Resolved](project_deploy_key_fix.md) — Key mismatch fixed 2026-04-03, core.sshCommand configured
+- [GitHub Repo & Deploy Key](reference_github_repo.md) — philkoh/ClaudeAddMenu, per-machine deploy keys, core.sshCommand on Linux
+- [Deploy Key Auth Model](project_deploy_key_fix.md) — Per-machine deploy keys decided; AddMenuPlan.md has new machine setup

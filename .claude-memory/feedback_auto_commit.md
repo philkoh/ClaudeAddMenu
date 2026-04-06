@@ -7,7 +7,7 @@ type: feedback
 Always commit, push, and save to memory whenever a new feature is successfully added. Do this autonomously without being asked.
 
 - Commit after successful tests; avoid committing when in a broken state.
-- Push using the deploy key with IdentitiesOnly=yes.
+- Push using the deploy key (core.sshCommand is configured, just `git push`).
 - The user may delete the directory and re-clone, so all important files must be tracked in git.
 - Memory files in `.claude-memory/` in the repo should stay in sync with the Claude Code memory system.
 
